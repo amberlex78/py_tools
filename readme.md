@@ -12,7 +12,12 @@ VID_20230917_071501.mp4
 PANO_20230511_185250.jpg
 ```
 After copying these files from the smartphone, I would like to have a folder structure 
-with the dates `2023-05`, `2023-09` and in them the files corresponding to this date.
+with the dates: 
+```
+2023-05
+2023-09
+``` 
+and in them the files corresponding to this date.
 
 ### Move files to directories 
 
