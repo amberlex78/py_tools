@@ -36,6 +36,6 @@ corresponding to the year and month there.
 
 **Disclaimer**
 
-The script author is not liable for any damages, losses, or issues arising from the 
-use of the scripts. It is recommended to create backups of your data and folders 
-before using the scripts to avoid data loss.
+The author of the scripts is not responsible for any damages or issues 
+arising from the use of the scripts. It is recommended to create backups 
+of your data and folders before using the scripts to avoid data loss.
