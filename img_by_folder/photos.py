@@ -1,6 +1,11 @@
 """
 This script is designed to help users organize their files by grouping them into subfolders
 based on their date information, facilitating better file management.
+
+Files such as (POCO X4 Pro):
+  IMG_20230917_082434.jpg
+  VID_20230917_071501.mp4
+  PANO_20230511_185250.jpg
 """
 
 import os
@@ -17,10 +22,9 @@ else:
     # Get the list of files in the folder
     files = os.listdir(folder_path)
 
-    # Iterate through each file
-
     for filename in files:
         # Extract the prefix with `_` from the file name
+        # For IMG_ PANO_ VID
         prefix = filename[:4] if filename[3] == '_' else filename[:5]
         try:
             # Extract the date from the file name and convert it to a datetime format

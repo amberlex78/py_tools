@@ -1,16 +1,33 @@
 # Tools for personal use
 
+It was for the purpose of learning `Python`.
+
+```commandline
+python3 -V
+Python 3.10.12
+```
+
 ## Tool `img_by_folder`
 
 I needed to transfer files from my smartphone to my computer. 
-All media files on the smartphone are in one folder (photos, panoramas, videos).
+All media files on the smartphone are in one folder such as photos, panoramas and videos.
 
 File names on the smartphone are stored as:
+
+POCO X4 Pro
 ```
 IMG_20230917_082434.jpg
 VID_20230917_071501.mp4
 PANO_20230511_185250.jpg
 ```
+or 
+
+Realme 6, Redmi 5+
+```
+IMG20230917082434.jpg
+VID20230917071501.mp4
+```
+
 After copying these files from the smartphone, I would like to have a folder structure 
 with the dates: 
 ```
